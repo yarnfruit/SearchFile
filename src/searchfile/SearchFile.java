@@ -9,12 +9,16 @@ import java.io.*;
  * This is a practice program. It reads lines in a text file and returns the lines that match the phrase of user input.
  * 
  * 1. Program reads an input file
- * 2. Save data to memory: a variable in a File object
+ * 2. Save data to memory
  * 3. Program accepts input from User
  * 4. Program compares user inputed string to file data stored in memory
- * 5. Return lines that contain the phrase or:
- * 6. Return contents of lines that contain the phrase or:
+ * 5. Return lines that contain the phrase and:
+ * 6. Return contents of lines that contain the phrase and:
  * 7. Return the number of times the phrase appears
+ * 
+ * improvements: I think the two classes might be redundant.
+ *               The user should be able to specify the file path.
+ *               The amount of lines to search should also be specified by the user.
  */
 public class SearchFile {
     
